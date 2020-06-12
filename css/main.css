@@ -1,0 +1,553 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*
+h2 {
+   font-family: "Skolar Bold",
+   AvenirNext-Bold, "Avenir Bold",
+   "Roboto Slab", "Droid Serif",
+   "Segoe UI Bold",
+   Georgia, "Times New Roman", Times, serif;
+}
+*/
+
+/* === GENERAL SYTLES === */
+.light-back{
+    background-color: #eee;   
+}
+.burnt-orange{
+    background-color: #EE4036;   
+}
+.grey{
+    background-color: #6D6E70;   
+}
+.light-border{
+    border: 1px solid #ddd;   
+}
+.padding{
+    padding: 10px;   
+}
+.shadow{
+    box-shadow:2px 2px 2px rgba(0,0,0,.5);
+}
+img{
+ max-width:100%;   
+}
+
+.btn-orange{
+    background-color: #EE4036;   
+    color:white;
+    float:right;
+}
+.btn-orange:hover{
+    background-color: white;   
+    color:#EE4036;  
+}
+hr{
+    border-color:#EE4036;
+}
+.h1, h2, h3, h4, .title, .navbar{
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 300;
+}
+.h1, h2, h3, h4, .title{
+    color: #EE4036;   
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #6D6E70;
+    font-size: 16px;
+    font-weight:200;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.arrow.up {
+	display:inline-block;
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 25px solid #eee;
+    top:0;
+    left: 50%;
+    position:absolute;
+    margin-left: -25px;
+    transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+
+}
+
+
+/* == LOGOS == */
+.logo{
+   background:url('../img/mryan-icon-set-large.png') no-repeat;
+    background-size: 70px;
+    height: 70px; width: 70px;
+}
+.logo.small{
+    background-size: 35px;   
+    height: 35px; width: 35px;
+}
+.logo.mryan{
+    background-position: 0 0;
+}
+a.logo.mryan.small:hover{
+    background:url('../img/mryan-icon-set.png') no-repeat;
+    background-size: 70px; 
+    background-position: -35px 0;
+}
+.logo.graphic{
+    background-position: 0 -70px;
+}
+.logo.graphic.small{
+    background-position: 0 -35px;
+}
+
+.logo.web{
+    background-position: 0 -70px;
+}
+.logo.web.small{
+    background-position: 0 -70px;
+}
+
+.logo.design{
+    background-position: 0 -210px;
+}
+.logo.design.small{
+    background-position: 0 -105px;
+}
+.logo.phone{
+    background:url('../img/mryan-icon-set.png') no-repeat;
+    background-position: 0 -140px;
+}
+.logo.phone.small{
+     background-size: 70px;  
+    background-position: 0 -70px;
+}
+a.logo.phone.small:hover{
+     background-size: 70px;  
+    background-position: -35px -70px;
+}
+a.logo.email{
+    background:url('../img/mryan-icon-set.png') no-repeat;
+    background-position: 0 -70px;
+}
+.logo.email.small{
+     background-size: 70px;  
+    background-position: 0 -35px;
+}
+.logo.email.small:hover{
+    background-size: 70px;  
+    background-position: -35px -35px;
+}
+
+
+.design-services{
+    line-height: 35px;
+    font-size: 1.2em;
+}
+.design-services .logo{
+    float: left; 
+    margin: 0 10px 0 0;
+}
+
+/* === NAV BAR === */
+.navbar .container, .navbar .navbar-header{
+    height: inherit;
+}
+.navbar .container{
+    position: relative;   
+}
+.navbar{
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);   
+}
+
+ul.nav {
+    float: right;
+}
+ul.nav li {
+    float: left;
+}
+ul.nav a{
+    line-height: 70px;
+    font-size: 18px;
+}
+.navbar, .about-body{
+    background:url('../img/10px_transparent_white.png') 0 0 repeat;
+}
+.navbar a{
+    color: #6D6E70;
+    transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+}
+.navbar a:hover{
+    color: #EE4036;
+}
+a.navbar-brand{
+    font-size: 30px;
+    line-height: 70px;
+}
+.navbar{
+    height: 100px
+}
+.mryan-big-icon{
+    background:url('../img/mryan-icon-set-large.png') 0 0 no-repeat;
+    height: 70px;
+    width:70px;
+    overflow:hidden;
+    display:block;
+    background-size:70px;
+    position:absolute;
+    top: 50%;left: 50%;
+    margin-left: -35px;
+    margin-top: -35px;
+}
+
+/* === FRONT PAGE === */
+.main-header .container{
+    position: relative;   
+}
+
+#main-jumbo {
+    background: url('../img/ryan-wall-angle-2x.jpg') 50% 100px no-repeat fixed; 
+    min-height: 400px;
+    background-size: 970px;
+}
+
+#main-jumbo article { 
+    height: auto; 
+    padding: 30px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 40px; 
+    top: 50%; 
+    margin-top: -125px;
+    width: 430px; 
+    background: url('../img/1px_transparent_black.png');
+    text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+}
+.trans-black{
+    background: url('../img/1px_transparent_black.png') 0 0 repeat;   
+}
+#main-bar{
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    bottom:0;
+    position: absolute
+}
+
+
+#main-blocks{
+    /*margin-top:20px;   */
+}
+
+.main-blocks {
+    /*position: relative;   
+    height: auto;
+    overflow:hidden;*/
+
+}
+
+.main-blocks:before {
+    content: '';
+    position:absolute;
+    left: 50%; top:0; bottom:auto;
+    margin-left: -35px;
+    height: 70px; width: 70px;
+    transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+    z-index: -1;
+}
+.main-blocks.graphic:before {
+    background: url('../img/mryan-icon-set-large.png') 0 -70px; 
+    background-size: 70px;
+}
+.main-blocks.web:before {
+    background: url('../img/mryan-icon-set-large.png') 0 -140px; 
+    background-size: 70px;
+}
+.main-blocks.design:before {
+    background: url('../img/mryan-icon-set-large.png') 0 -210px; 
+    background-size: 70px;
+}
+
+.block-title{
+    font-size: 24px;
+    text-align:center;
+    
+}
+.block-content{
+    margin-top:70px;
+    text-align:center;
+    background-color: rgba(255,255,255,.7);
+    transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+}
+/*.main-blocks:hover .block-content,
+.main-blocks.selected .block-content{
+    margin-top:0px;
+}
+.main-blocks:not(.selected):hover:before {
+    top:50%;
+    margin-top:-35px;
+}
+
+.main-blocks.selected:before{
+    top: 40%;
+}*/
+.block-toggle{
+    /*color: white;*/
+    margin: 10px;
+}
+.block-toggle.active{
+    color: white;
+    background-color: #EE4036;
+}
+/*
+.main-blocks.selected .block-content{
+    margin-top:-88px;   
+}8?
+*/
+.main-content.panel-body{
+    padding: 0;
+}
+
+.main-content-container{
+    margin: 60px 0 30px 0;
+    background:url('../img/10px_transparent_white.png') 0 0 repeat;
+    padding: 20px;
+}
+
+.projects:before,
+.projects:after{
+    clear:both
+}
+.img-thumbnail{
+   float:left;
+    height: 150px;
+    margin: 0 10px 10px 0;
+}
+.img-thumbnail:hover{
+    border-color: #EE4036;  
+    cursor:pointer;
+}
+.img-thumbnail img{
+    max-height:100%;   
+}
+
+#page-two{
+    display: none;   
+}
+
+.angled-wall{
+    background: url('../img/angled-wall-2x.jpg') 50% 200px no-repeat fixed; 
+    background-size: contain;
+    position:relative;
+}
+.straight-wall{
+    background: url('../img/straight-wall-2x.jpg') 50% 200px no-repeat fixed; 
+    background-size: contain;
+    position:relative;
+}
+.angled-wall-flipped{
+    background: url('../img/angled-wall-2x-flipped.jpg') 50% 200px no-repeat fixed; 
+    background-size: contain;
+    position:relative;
+}
+.wall{
+    background-image: url('../img/ryan-wall.jpg');
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 50% 0;
+}
+
+
+.arrow-row{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;  
+}
+.arrow-row .left-side{
+    border-top: 25px solid white;
+    border-right: 25px solid transparent;
+    height: 25px;
+    float:left;
+}
+.arrow-row .right-side{
+    border-top: 25px solid white;
+    border-left: 25px solid transparent;
+    height: 25px;
+    float: left;
+}
+
+a.video{
+    position:relative;   
+}
+a.video:after{
+    content: '';
+    position: absolute;
+    top:50%; left:50%;
+    margin: -17.5px;
+    height: 35px; width: 35px;
+    background-image: url('../img/mryan-icon-set.png');
+    background-color: rgba(255,255,255,.7);
+    background-size: 70px;
+    background-position: 0 -105px;
+    border-radius: 35px;
+}
+a.video:hover:after{
+    background-position: -35px -105px;
+}
+
+.about-body{
+    width:350px; padding: 10px; margin-left:200px
+}
+
+
+/* Target Desktop */
+@media (min-width: 1200px) {
+    #main-jumbo {
+        min-height: 600px;
+    }
+    .main-blocks {
+        height: 160px;
+    }
+    .angled-wall,  .straight-wall, .angled-wall-flipped{
+        background-size: 1200px;
+    }
+}
+
+/* Target Tablet-Portrait to Table-Landscape */
+@media (min-width: 768px) and (max-width: 979px) { 
+     #main-jumbo {
+        background: url('../img/ryan-wall-angle-2x.jpg') 50% 100px no-repeat fixed;
+        min-height: 350px;
+        background-size: 750px;
+    }
+    #main-jumbo article { 
+        height: auto; 
+        padding: 20px;
+        color: white;
+        font-size: 30px;
+        width: 320px; 
+        left: 80px;
+        margin-top:-83px;
+    }
+    .main-blocks {
+        height: 175px;
+    }
+}
+
+/* Tablet-Portrait to Phone */
+@media (max-width: 767px) {  
+     #main-jumbo {
+        background: url('../img/ryan-wall-angle-2x.jpg') 0 100px no-repeat fixed;
+        min-height: 312px;
+        background-size: contain;
+    }
+    #main-jumbo article { 
+        height: auto; 
+        padding: 20px;
+        color: white;
+        font-size: 30px;
+        width: 320px; 
+        left: 0;
+        margin-top:-83px;
+    }
+    a.navbar-brand{
+        margin-left: 80px;
+    }
+    .mryan-big-icon{
+        left: 50px;    
+    }
+
+    .navbar-toggle{
+        height: 71px;
+        width: 71px;
+        background:url('../img/mryan-icon-set-large.png') 0 -281px no-repeat;
+        background-size:70px;
+        position: absolute;
+        right: -46px;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .navbar-collapse{
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        z-index: -1;
+    }
+    .navbar-collapse ul{
+        padding-left: 40px;
+    }
+}
+
+/* Target Phone */
+@media (max-width: 480px) { 
+    #main-jumbo {
+        background: url('../img/ryan-wall-angle-1x.jpg') 50% 100 no-repeat fixed;
+        background-size: 100%;
+        min-height: 323px;
+    }
+    .jumbo-container{
+        width: 100%;
+        padding: 0;
+    }
+    #main-jumbo article { 
+        height: auto; 
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+        width: 215px; 
+        left: 0;
+        margin-top:-10px;
+    }
+    body{
+        padding-top:0px;
+    }
+    .angled-wall{
+        background: url('../img/angled-wall-1x.jpg') 50% 0 no-repeat fixed; 
+        background-size:cover;
+    }
+    .straight-wall{
+        background: url('../img/straight-wall-1x.jpg') 50% 0 no-repeat fixed; 
+        background-size:cover;
+    }
+    .angled-wall-flipped{
+        background: url('../img/angled-wall-1x-flipped.jpg') 50% 0 no-repeat fixed; 
+        background-size:cover;
+    }
+    .block-toggle, .btn{
+        /*color: white;*/
+        margin: 0px;
+        padding: 3px 6px;
+    }
+    .about-body{
+        width: auto;
+    margin-left: 70px;
+        padding: 10px;
+    }
+    .wall{
+        background-image: url('../img/ryan-wall.jpg');
+        background-repeat: no-repeat;
+        background-size: 110%;
+        background-position: top right;
+    }
+
+}
